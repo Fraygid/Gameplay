@@ -10,8 +10,8 @@ class Monster:
         print()
 
 
-line1 = input('Введите имя, хп, и урон монстра: ').split()
-line2 = input('Введите имя, хп, и урон монстра: ').split()
+line1 = input('Введите через пробел имя, здоровье, и урон монстра 1: ').split()
+line2 = input('Введите через пробел имя, здоровье, и урон монстра 2: ').split()
 
 dracula = Monster(line1[0], int(line1[1]), int(line1[2]))
 lycan = Monster(line2[0], int(line2[1]), int(line2[2]))
